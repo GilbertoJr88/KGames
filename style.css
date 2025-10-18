@@ -1,0 +1,88 @@
+body{
+color: white;
+background-image: url("imagens/mario.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+font-family: Arial, Helvetica, sans-serif;
+width: 100vw;
+height: 100vh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+.sobre {
+
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.sobre h2{
+    color: chartreuse;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.sobre p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    color: #fff;
+}
+
+
+.texto-quem-somos{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section h3 {
+    color: chartreuse;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.texto-quem-somos{
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    background-color: chartreuse;
+    color: rgb(20, 20, 20);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao:hover{
+    background-color: rgb(10, 9, 9);
+    color: chartreuse;
+    border: solid 2px white;
+    transition: 0.5s;
+}
